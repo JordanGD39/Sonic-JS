@@ -1,0 +1,20 @@
+body{
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0a121a;
+}
+
+
+canvas{
+    background-image: url("Img/Backgrounds/NGH/NeoGreenHillZoneBG.png");
+    background-size: contain;
+    image-rendering: pixelated;
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+}
